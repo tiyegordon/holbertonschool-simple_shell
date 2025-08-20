@@ -1,5 +1,9 @@
 #include "simpleshell.h"
 
+char **env = NULL;
+char *command = NULL;
+char *fullpath = NULL;
+
 /*char **env, *command;*/
 
 /**
